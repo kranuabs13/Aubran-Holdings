@@ -191,37 +191,16 @@ const Solutions = () => {
 const Contact = () => (
   <section id="contact" className="py-20 md:py-32 bg-gray-50">
     <div className="max-w-7xl mx-auto px-6">
-      <div className="grid lg:grid-cols-2 gap-16 md:gap-24">
+      <div className="max-w-3xl">
+        <h2 className="text-4xl md:text-5xl font-light tracking-tight text-black mb-12">
+          Let's discuss <br />
+          <span className="italic font-serif">your expansion.</span>
+        </h2>
         <div>
-          <h2 className="text-4xl md:text-5xl font-light tracking-tight text-black mb-10 md:mb-12">
-            Let's discuss <br />
-            <span className="italic font-serif">your expansion.</span>
-          </h2>
-          <div className="space-y-8">
-            <div>
-              <p className="text-[10px] font-bold uppercase tracking-widest text-black/30 mb-3 md:mb-4">Email Inquiry</p>
-              <a href="mailto:contact@aubran.com" className="text-xl md:text-2xl font-light hover:text-black/60 transition-colors break-words">contact@aubran.com</a>
-            </div>
-            <div>
-              <p className="text-[10px] font-bold uppercase tracking-widest text-black/30 mb-3 md:mb-4">Headquarters</p>
-              <p className="text-lg md:text-xl font-light leading-relaxed">
-                Global Operations Center <br />
-                International Distribution Hub
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="flex flex-col justify-end">
-          <form className="space-y-6 md:space-y-8">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-              <input type="text" placeholder="NAME" className="w-full bg-transparent border-b border-black/10 py-4 text-[10px] font-bold tracking-widest focus:border-black outline-none transition-colors rounded-none" />
-              <input type="email" placeholder="EMAIL" className="w-full bg-transparent border-b border-black/10 py-4 text-[10px] font-bold tracking-widest focus:border-black outline-none transition-colors rounded-none" />
-            </div>
-            <textarea placeholder="MESSAGE" rows={4} className="w-full bg-transparent border-b border-black/10 py-4 text-[10px] font-bold tracking-widest focus:border-black outline-none transition-colors resize-none rounded-none" />
-            <button className="w-full py-5 md:py-6 bg-black text-white text-[10px] font-bold uppercase tracking-[0.3em] hover:bg-black/90 transition-all active:scale-[0.98]">
-              Send Message
-            </button>
-          </form>
+          <p className="text-[10px] font-bold uppercase tracking-widest text-black/30 mb-3 md:mb-4">Email Inquiry</p>
+          <a href="mailto:contact@aubran.com" className="text-xl md:text-2xl font-light hover:text-black/60 transition-colors break-words text-black">
+            contact@aubran.com
+          </a>
         </div>
       </div>
     </div>
